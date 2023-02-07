@@ -18,7 +18,7 @@ use App\Models\Admin\General;
 use Illuminate\Foundation\Auth\EmailVerificationRequest;
 
 //Config::set('livewire.asset_url', url('/') );
-//Config::set('livewire.asset_url', secure_url('/') );
+Config::set('livewire.asset_url', secure_url('/') );
 
 try {
 
